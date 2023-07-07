@@ -4,7 +4,7 @@ GET http://localhost:3000/api/products
 GET http://localhost:3000/api/products/64a6d3b73f68a97b13dbb24c
 
 ###
-POST http://localhost:3000/api/products
+POST https://tiendamongodb-ya3f.onrender.com/api/products
 Content-Type: application/json
 
 {
