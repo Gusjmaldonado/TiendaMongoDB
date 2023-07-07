@@ -1,0 +1,37 @@
+GET http://localhost:3000/api/products
+
+###
+GET http://localhost:3000/api/products/64a6d3b73f68a97b13dbb24c
+
+###
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "perritus calentitus",
+    "description" : "para comer",
+    "price" : 2,
+    "available": true,
+    "stock": 50,
+    "department": "cocina"
+}
+
+
+
+###
+POST http://localhost:3000/api/users/register
+Content-Type: application/json
+
+{
+    "username" : "YoMis",
+    "email": "yomismimllo@gmail.com",
+    "password" : "12345y",
+    "role" : "admin"
+}
+
+###
+PUT http://localhost:3000/api/users/64a7e3624e11b52ed1d6cd92/buy/64a6d3b73f68a97b13dbb24c
+
+
+###
+GET http://localhost:3000/api/users
